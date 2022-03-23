@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(198, 238, 225);
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info {
+    color:#141e31;
+}
+
+@media (max-with: 700px) {
+.info {
+    text-align: center;
+    display: block;
+}
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:active{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(13, 17, 226);
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* .social { 
+    background-color: rgb(241, 190, 148); 
+    padding: 15px; 
+   border: 5px solid red;
+   margin: 20px; 
+
+ }  */
+
+ .div_card .social {
+     display: block;
+     padding: 15px 20px;
+     background-color: rgba(244, 248, 12, 0.884);
+     margin-bottom: 30px;
+     border-radius: 20px;
+ }
+
+ .div_card .reports {
+     display: block;
+    padding: 15px 20px;
+    background-color: rgb(244, 248, 12, 0.884);
+    margin-bottom: 30px;
+    border-radius: 20px;
+ }
+
